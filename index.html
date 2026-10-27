@@ -34,16 +34,16 @@ table{width:100%;border-collapse:collapse}th,td{padding:8px;text-align:left;bord
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script type="module">
 // KONFIGURASI APLIKASI
-const IS_PREVIEW = true; // Ubah menjadi false SAAT DEPLOY / PUBLISH agar terhubung murni ke Firebase tanpa data dummy
+const IS_PREVIEW = false; // Ubah menjadi false SAAT DEPLOY / PUBLISH agar terhubung murni ke Firebase tanpa data dummy
 
 // PASTE FIREBASE CONFIG ANDA DI SINI
 const firebaseConfig = {
-  apiKey: "API_KEY_ANDA",
-  authDomain: "PROJECT_ID.firebaseapp.com",
-  projectId: "PROJECT_ID",
-  storageBucket: "PROJECT_ID.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyD6ao1Wvt4gL5g6BIdx-mnqyXwznYuu4es",
+  authDomain: "hadir-qr-9b0da.firebaseapp.com",
+  projectId: "hadir-qr-9b0da",
+  storageBucket: "hadir-qr-9b0da.firebasestorage.app",
+  messagingSenderId: "108015735434",
+  appId: "1:108015735434:web:9a84b9dd62d681da8b1373"
 };
 
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
